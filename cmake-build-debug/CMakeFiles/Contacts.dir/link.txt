@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Contacts.dir/main.cpp.o CMakeFiles/Contacts.dir/Contacts.cpp.o CMakeFiles/Contacts.dir/ContactBook.cpp.o CMakeFiles/Contacts.dir/ContactException.cpp.o CMakeFiles/Contacts.dir/Interface.cpp.o  -o Contacts -lcurses /usr/lib/x86_64-linux-gnu/libform.so 

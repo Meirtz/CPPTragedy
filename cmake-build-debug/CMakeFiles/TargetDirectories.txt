@@ -1,0 +1,3 @@
+/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles/Contacts.dir
