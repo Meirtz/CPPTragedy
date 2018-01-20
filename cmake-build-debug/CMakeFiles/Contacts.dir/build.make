@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake
+CMAKE_COMMAND = "/Users/meirtz/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = /home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake -E remove -f
+RM = "/Users/meirtz/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/meirtz/CLionProjects/Contacts
+CMAKE_SOURCE_DIR = /Users/meirtz/Documents/GitHub/CPPTragedy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/meirtz/CLionProjects/Contacts/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Contacts.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Contacts.dir/flags.make
 
 CMakeFiles/Contacts.dir/main.cpp.o: CMakeFiles/Contacts.dir/flags.make
 CMakeFiles/Contacts.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Contacts.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/main.cpp.o -c /home/meirtz/CLionProjects/Contacts/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Contacts.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/main.cpp.o -c /Users/meirtz/Documents/GitHub/CPPTragedy/main.cpp
 
 CMakeFiles/Contacts.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contacts.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meirtz/CLionProjects/Contacts/main.cpp > CMakeFiles/Contacts.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/meirtz/Documents/GitHub/CPPTragedy/main.cpp > CMakeFiles/Contacts.dir/main.cpp.i
 
 CMakeFiles/Contacts.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contacts.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meirtz/CLionProjects/Contacts/main.cpp -o CMakeFiles/Contacts.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/meirtz/Documents/GitHub/CPPTragedy/main.cpp -o CMakeFiles/Contacts.dir/main.cpp.s
 
 CMakeFiles/Contacts.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Contacts.dir/main.cpp.o.provides.build: CMakeFiles/Contacts.dir/main.
 
 CMakeFiles/Contacts.dir/Contacts.cpp.o: CMakeFiles/Contacts.dir/flags.make
 CMakeFiles/Contacts.dir/Contacts.cpp.o: ../Contacts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Contacts.dir/Contacts.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/Contacts.cpp.o -c /home/meirtz/CLionProjects/Contacts/Contacts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Contacts.dir/Contacts.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/Contacts.cpp.o -c /Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.cpp
 
 CMakeFiles/Contacts.dir/Contacts.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contacts.dir/Contacts.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meirtz/CLionProjects/Contacts/Contacts.cpp > CMakeFiles/Contacts.dir/Contacts.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.cpp > CMakeFiles/Contacts.dir/Contacts.cpp.i
 
 CMakeFiles/Contacts.dir/Contacts.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contacts.dir/Contacts.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meirtz/CLionProjects/Contacts/Contacts.cpp -o CMakeFiles/Contacts.dir/Contacts.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.cpp -o CMakeFiles/Contacts.dir/Contacts.cpp.s
 
 CMakeFiles/Contacts.dir/Contacts.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Contacts.dir/Contacts.cpp.o.provides.build: CMakeFiles/Contacts.dir/C
 
 CMakeFiles/Contacts.dir/ContactBook.cpp.o: CMakeFiles/Contacts.dir/flags.make
 CMakeFiles/Contacts.dir/ContactBook.cpp.o: ../ContactBook.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Contacts.dir/ContactBook.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/ContactBook.cpp.o -c /home/meirtz/CLionProjects/Contacts/ContactBook.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Contacts.dir/ContactBook.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/ContactBook.cpp.o -c /Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.cpp
 
 CMakeFiles/Contacts.dir/ContactBook.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contacts.dir/ContactBook.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meirtz/CLionProjects/Contacts/ContactBook.cpp > CMakeFiles/Contacts.dir/ContactBook.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.cpp > CMakeFiles/Contacts.dir/ContactBook.cpp.i
 
 CMakeFiles/Contacts.dir/ContactBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contacts.dir/ContactBook.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meirtz/CLionProjects/Contacts/ContactBook.cpp -o CMakeFiles/Contacts.dir/ContactBook.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.cpp -o CMakeFiles/Contacts.dir/ContactBook.cpp.s
 
 CMakeFiles/Contacts.dir/ContactBook.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Contacts.dir/ContactBook.cpp.o.provides.build: CMakeFiles/Contacts.di
 
 CMakeFiles/Contacts.dir/ContactException.cpp.o: CMakeFiles/Contacts.dir/flags.make
 CMakeFiles/Contacts.dir/ContactException.cpp.o: ../ContactException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Contacts.dir/ContactException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/ContactException.cpp.o -c /home/meirtz/CLionProjects/Contacts/ContactException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Contacts.dir/ContactException.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/ContactException.cpp.o -c /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.cpp
 
 CMakeFiles/Contacts.dir/ContactException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contacts.dir/ContactException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meirtz/CLionProjects/Contacts/ContactException.cpp > CMakeFiles/Contacts.dir/ContactException.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.cpp > CMakeFiles/Contacts.dir/ContactException.cpp.i
 
 CMakeFiles/Contacts.dir/ContactException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contacts.dir/ContactException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meirtz/CLionProjects/Contacts/ContactException.cpp -o CMakeFiles/Contacts.dir/ContactException.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.cpp -o CMakeFiles/Contacts.dir/ContactException.cpp.s
 
 CMakeFiles/Contacts.dir/ContactException.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Contacts.dir/ContactException.cpp.o.provides.build: CMakeFiles/Contac
 
 CMakeFiles/Contacts.dir/Interface.cpp.o: CMakeFiles/Contacts.dir/flags.make
 CMakeFiles/Contacts.dir/Interface.cpp.o: ../Interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Contacts.dir/Interface.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/Interface.cpp.o -c /home/meirtz/CLionProjects/Contacts/Interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Contacts.dir/Interface.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Contacts.dir/Interface.cpp.o -c /Users/meirtz/Documents/GitHub/CPPTragedy/Interface.cpp
 
 CMakeFiles/Contacts.dir/Interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Contacts.dir/Interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meirtz/CLionProjects/Contacts/Interface.cpp > CMakeFiles/Contacts.dir/Interface.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/meirtz/Documents/GitHub/CPPTragedy/Interface.cpp > CMakeFiles/Contacts.dir/Interface.cpp.i
 
 CMakeFiles/Contacts.dir/Interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Contacts.dir/Interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meirtz/CLionProjects/Contacts/Interface.cpp -o CMakeFiles/Contacts.dir/Interface.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/meirtz/Documents/GitHub/CPPTragedy/Interface.cpp -o CMakeFiles/Contacts.dir/Interface.cpp.s
 
 CMakeFiles/Contacts.dir/Interface.cpp.o.requires:
 
@@ -194,11 +194,11 @@ Contacts: CMakeFiles/Contacts.dir/ContactBook.cpp.o
 Contacts: CMakeFiles/Contacts.dir/ContactException.cpp.o
 Contacts: CMakeFiles/Contacts.dir/Interface.cpp.o
 Contacts: CMakeFiles/Contacts.dir/build.make
-Contacts: /usr/local/lib/libprotobuf.so
+Contacts: /usr/local/lib/libprotobuf.dylib
 Contacts: proto/libfoo.a
-Contacts: /usr/local/lib/libprotobuf.so
+Contacts: /usr/local/lib/libprotobuf.dylib
 Contacts: CMakeFiles/Contacts.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Contacts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Contacts"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Contacts.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -219,6 +219,6 @@ CMakeFiles/Contacts.dir/clean:
 .PHONY : CMakeFiles/Contacts.dir/clean
 
 CMakeFiles/Contacts.dir/depend:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/meirtz/CLionProjects/Contacts /home/meirtz/CLionProjects/Contacts /home/meirtz/CLionProjects/Contacts/cmake-build-debug /home/meirtz/CLionProjects/Contacts/cmake-build-debug /home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles/Contacts.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/meirtz/Documents/GitHub/CPPTragedy /Users/meirtz/Documents/GitHub/CPPTragedy /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles/Contacts.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Contacts.dir/depend
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake
+CMAKE_COMMAND = "/Users/meirtz/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = /home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake -E remove -f
+RM = "/Users/meirtz/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/meirtz/CLionProjects/Contacts
+CMAKE_SOURCE_DIR = /Users/meirtz/Documents/GitHub/CPPTragedy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/meirtz/CLionProjects/Contacts/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/meirtz/CLionProjects/Contacts/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/meirtz/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/meirtz/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/CMakeFiles/progress.marks
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles 0
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/CMakeFiles/progress.marks
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/clean
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/preinstall
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/preinstall
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 proto/CMakeFiles/foo.dir/rule:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/CMakeFiles/foo.dir/rule
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 proto/CMakeFiles/foo.dir/rule
 .PHONY : proto/CMakeFiles/foo.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ foo: proto/CMakeFiles/foo.dir/rule
 
 # fast build rule for target.
 foo/fast:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/build
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/build
 .PHONY : foo/fast
 
 ContactBook.pb.o: ContactBook.pb.cc.o
@@ -131,7 +131,7 @@ ContactBook.pb.o: ContactBook.pb.cc.o
 
 # target to build an object file
 ContactBook.pb.cc.o:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o
 .PHONY : ContactBook.pb.cc.o
 
 ContactBook.pb.i: ContactBook.pb.cc.i
@@ -140,7 +140,7 @@ ContactBook.pb.i: ContactBook.pb.cc.i
 
 # target to preprocess a source file
 ContactBook.pb.cc.i:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/ContactBook.pb.cc.i
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/ContactBook.pb.cc.i
 .PHONY : ContactBook.pb.cc.i
 
 ContactBook.pb.s: ContactBook.pb.cc.s
@@ -149,7 +149,7 @@ ContactBook.pb.s: ContactBook.pb.cc.s
 
 # target to generate assembly for a file
 ContactBook.pb.cc.s:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/ContactBook.pb.cc.s
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/ContactBook.pb.cc.s
 .PHONY : ContactBook.pb.cc.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

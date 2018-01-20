@@ -32,13 +32,13 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 
-/home/meirtz/CLionProjects/Contacts/ContactBook.cpp
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.cpp
 ContactBook.h
-/home/meirtz/CLionProjects/Contacts/ContactBook.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.h
 
-/home/meirtz/CLionProjects/Contacts/ContactBook.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.h
 Contacts.h
-/home/meirtz/CLionProjects/Contacts/Contacts.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.h
 iostream
 -
 cstdio
@@ -52,51 +52,55 @@ unordered_map
 sqlite3.h
 -
 ContactBook.pb.h
-/home/meirtz/CLionProjects/Contacts/ContactBook.pb.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.pb.h
 
-/home/meirtz/CLionProjects/Contacts/ContactException.cpp
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.cpp
 ContactException.h
-/home/meirtz/CLionProjects/Contacts/ContactException.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.h
 
-/home/meirtz/CLionProjects/Contacts/ContactException.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.h
 iostream
 -
 string
 -
 
-/home/meirtz/CLionProjects/Contacts/Contacts.cpp
+/Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.cpp
 Contacts.h
-/home/meirtz/CLionProjects/Contacts/Contacts.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.h
 
-/home/meirtz/CLionProjects/Contacts/Contacts.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.h
 iostream
 -
 string
 -
 ContactException.h
-/home/meirtz/CLionProjects/Contacts/ContactException.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.h
 cstring
 -
 
-/home/meirtz/CLionProjects/Contacts/Interface.cpp
+/Users/meirtz/Documents/GitHub/CPPTragedy/Interface.cpp
 Interface.h
-/home/meirtz/CLionProjects/Contacts/Interface.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/Interface.h
 
-/home/meirtz/CLionProjects/Contacts/Interface.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/Interface.h
 iostream
 -
-ContactBook.h
-/home/meirtz/CLionProjects/Contacts/ContactBook.h
 ContactBook.pb.h
-/home/meirtz/CLionProjects/Contacts/ContactBook.pb.h
+-
+ContactBook.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.h
+ContactBook.pb.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.pb.h
+fstream
+-
 
-/home/meirtz/CLionProjects/Contacts/main.cpp
+/Users/meirtz/Documents/GitHub/CPPTragedy/main.cpp
 iostream
 -
 Contacts.h
-/home/meirtz/CLionProjects/Contacts/Contacts.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.h
 ContactBook.h
-/home/meirtz/CLionProjects/Contacts/ContactBook.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.h
 Interface.h
-/home/meirtz/CLionProjects/Contacts/Interface.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/Interface.h
 

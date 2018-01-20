@@ -31,9 +31,20 @@ public:
     bool addPerson(Contacts &person);
     bool deletePerson(int pos) {
         try {
-            people.erase((vector<Contacts>::iterator)&people[pos]);
+            //people.erase((vector<Contacts>::iterator)&people[pos]);
+            people.erase(people.begin()+pos-1);
         } catch (exception &e){
             cout<<"Error occurred when deleting a person at position "<<pos<<" ."<<endl;
+        }
+
+    }
+    bool clearBook() {
+        try {
+            this->people.clear();
+            cout<<"Reloading book..."<<endl;
+        } catch(ContactException &e) {
+            //cout<<e.what()<<endl;
+            cout<<"Can't clear ContactBook!"<<endl;
         }
 
     }

@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.cc
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/ContactBook.pb.cc
 ContactBook.pb.h
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/ContactBook.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -30,9 +30,9 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 third_party/protobuf/version.h
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/third_party/protobuf/version.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/third_party/protobuf/version.h
 
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.h
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/ContactBook.pb.h
 string
 -
 google/protobuf/stubs/common.h

@@ -3,28 +3,28 @@
 
 CMakeFiles/Contacts.dir/ContactBook.cpp.o
  .././proto/ContactBook.pb.h
- /home/meirtz/CLionProjects/Contacts/ContactBook.cpp
- /home/meirtz/CLionProjects/Contacts/ContactBook.h
- /home/meirtz/CLionProjects/Contacts/ContactException.h
- /home/meirtz/CLionProjects/Contacts/Contacts.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.cpp
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.h
 CMakeFiles/Contacts.dir/ContactException.cpp.o
- /home/meirtz/CLionProjects/Contacts/ContactException.cpp
- /home/meirtz/CLionProjects/Contacts/ContactException.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.cpp
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.h
 CMakeFiles/Contacts.dir/Contacts.cpp.o
- /home/meirtz/CLionProjects/Contacts/ContactException.h
- /home/meirtz/CLionProjects/Contacts/Contacts.cpp
- /home/meirtz/CLionProjects/Contacts/Contacts.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.cpp
+ /Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.h
 CMakeFiles/Contacts.dir/Interface.cpp.o
  .././proto/ContactBook.pb.h
- /home/meirtz/CLionProjects/Contacts/ContactBook.h
- /home/meirtz/CLionProjects/Contacts/ContactException.h
- /home/meirtz/CLionProjects/Contacts/Contacts.h
- /home/meirtz/CLionProjects/Contacts/Interface.cpp
- /home/meirtz/CLionProjects/Contacts/Interface.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/Interface.cpp
+ /Users/meirtz/Documents/GitHub/CPPTragedy/Interface.h
 CMakeFiles/Contacts.dir/main.cpp.o
  .././proto/ContactBook.pb.h
- /home/meirtz/CLionProjects/Contacts/ContactBook.h
- /home/meirtz/CLionProjects/Contacts/ContactException.h
- /home/meirtz/CLionProjects/Contacts/Contacts.h
- /home/meirtz/CLionProjects/Contacts/Interface.h
- /home/meirtz/CLionProjects/Contacts/main.cpp
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/ContactException.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/Contacts.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/Interface.h
+ /Users/meirtz/Documents/GitHub/CPPTragedy/main.cpp

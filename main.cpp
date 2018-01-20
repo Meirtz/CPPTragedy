@@ -47,6 +47,9 @@ int main() {
     //interface_test();
     ContactBook book = ContactBook();
     Interface ui(book);
+    ui.readBook(); // Read book from local file
     ui.display_main();
+
+    //interface_test();
     return 0;
 }

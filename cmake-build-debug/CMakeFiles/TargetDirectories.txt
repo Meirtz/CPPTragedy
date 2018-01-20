@@ -1,6 +1,6 @@
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles/Contacts.dir
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/CMakeFiles/rebuild_cache.dir
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/CMakeFiles/edit_cache.dir
-/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/CMakeFiles/foo.dir
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles/Contacts.dir
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/CMakeFiles/rebuild_cache.dir
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/CMakeFiles/edit_cache.dir
+/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/CMakeFiles/foo.dir

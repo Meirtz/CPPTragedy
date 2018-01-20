@@ -9,6 +9,7 @@ Interface::Interface(ContactBook &book) {
 }
 
 void Interface::display_all() {
+    //readBook();
     if(!_DEBUG) {
         system(_CLEAR_STR);
     }
@@ -35,6 +36,7 @@ void Interface::display_new() {
         system(_CLEAR_STR);
     }
     this->book.addPerson(new_person());
+    //saveBook();
     display_main();
 }
 
@@ -87,7 +89,7 @@ Contacts &Interface::new_person() {
     printf("Date:");
     cin>>date;
 
-    printf("E-mail");
+    printf("E-mail:");
     cin>>email;
     Contacts *p = new Contacts(name.c_str(), number.c_str(), sex, address.c_str(), date.c_str(), email.c_str());
     return *p;
@@ -98,6 +100,7 @@ bool Interface::delete_person() {
     printf("Please input an ID:");
     cin>>pos;
     this->book.deletePerson(pos);
+    saveBook();
 }
 
 /*Contacts &Interface::edit(int pos) {

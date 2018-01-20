@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake
+CMAKE_COMMAND = "/Users/meirtz/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake"
 
 # The command to remove a file.
-RM = /home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake -E remove -f
+RM = "/Users/meirtz/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/CLion.app/Contents/bin/cmake/bin/cmake" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/meirtz/CLionProjects/Contacts
+CMAKE_SOURCE_DIR = /Users/meirtz/Documents/GitHub/CPPTragedy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/meirtz/CLionProjects/Contacts/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include proto/CMakeFiles/foo.dir/depend.make
@@ -59,24 +59,24 @@ include proto/CMakeFiles/foo.dir/flags.make
 
 proto/ContactBook.pb.cc: ../proto/ContactBook.proto
 proto/ContactBook.pb.cc: /usr/local/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on ContactBook.proto"
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto && /usr/local/bin/protoc --cpp_out=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto -I /home/meirtz/CLionProjects/Contacts/proto /home/meirtz/CLionProjects/Contacts/proto/ContactBook.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on ContactBook.proto"
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto && /usr/local/bin/protoc --cpp_out=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto -I /Users/meirtz/Documents/GitHub/CPPTragedy/proto /Users/meirtz/Documents/GitHub/CPPTragedy/proto/ContactBook.proto
 
 proto/ContactBook.pb.h: proto/ContactBook.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate proto/ContactBook.pb.h
 
 proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o: proto/CMakeFiles/foo.dir/flags.make
 proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o: proto/ContactBook.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o"
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/ContactBook.pb.cc.o -c /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o"
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/ContactBook.pb.cc.o -c /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/ContactBook.pb.cc
 
 proto/CMakeFiles/foo.dir/ContactBook.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foo.dir/ContactBook.pb.cc.i"
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.cc > CMakeFiles/foo.dir/ContactBook.pb.cc.i
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/ContactBook.pb.cc > CMakeFiles/foo.dir/ContactBook.pb.cc.i
 
 proto/CMakeFiles/foo.dir/ContactBook.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foo.dir/ContactBook.pb.cc.s"
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.cc -o CMakeFiles/foo.dir/ContactBook.pb.cc.s
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/ContactBook.pb.cc -o CMakeFiles/foo.dir/ContactBook.pb.cc.s
 
 proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o.requires:
 
@@ -99,9 +99,9 @@ foo_EXTERNAL_OBJECTS =
 proto/libfoo.a: proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o
 proto/libfoo.a: proto/CMakeFiles/foo.dir/build.make
 proto/libfoo.a: proto/CMakeFiles/foo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libfoo.a"
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto && $(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean_target.cmake
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libfoo.a"
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto && $(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 proto/CMakeFiles/foo.dir/build: proto/libfoo.a
@@ -113,11 +113,11 @@ proto/CMakeFiles/foo.dir/requires: proto/CMakeFiles/foo.dir/ContactBook.pb.cc.o.
 .PHONY : proto/CMakeFiles/foo.dir/requires
 
 proto/CMakeFiles/foo.dir/clean:
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto && $(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean.cmake
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto && $(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean.cmake
 .PHONY : proto/CMakeFiles/foo.dir/clean
 
 proto/CMakeFiles/foo.dir/depend: proto/ContactBook.pb.cc
 proto/CMakeFiles/foo.dir/depend: proto/ContactBook.pb.h
-	cd /home/meirtz/CLionProjects/Contacts/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/meirtz/CLionProjects/Contacts /home/meirtz/CLionProjects/Contacts/proto /home/meirtz/CLionProjects/Contacts/cmake-build-debug /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto /home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/CMakeFiles/foo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/meirtz/Documents/GitHub/CPPTragedy /Users/meirtz/Documents/GitHub/CPPTragedy/proto /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto /Users/meirtz/Documents/GitHub/CPPTragedy/cmake-build-debug/proto/CMakeFiles/foo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : proto/CMakeFiles/foo.dir/depend
 
