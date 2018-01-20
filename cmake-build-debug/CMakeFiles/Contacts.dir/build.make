@@ -194,8 +194,9 @@ Contacts: CMakeFiles/Contacts.dir/ContactBook.cpp.o
 Contacts: CMakeFiles/Contacts.dir/ContactException.cpp.o
 Contacts: CMakeFiles/Contacts.dir/Interface.cpp.o
 Contacts: CMakeFiles/Contacts.dir/build.make
-Contacts: /usr/lib/x86_64-linux-gnu/libcurses.so
-Contacts: /usr/lib/x86_64-linux-gnu/libform.so
+Contacts: /usr/local/lib/libprotobuf.so
+Contacts: proto/libfoo.a
+Contacts: /usr/local/lib/libprotobuf.so
 Contacts: CMakeFiles/Contacts.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Contacts"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Contacts.dir/link.txt --verbose=$(VERBOSE)

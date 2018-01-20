@@ -1,4 +1,7 @@
 /home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/meirtz/CLionProjects/Contacts
+-- Found Protobuf: /usr/local/lib/libprotobuf.so;-lpthread (found version "3.5.1") 
+-- Found Protobuf: /usr/local/lib/libprotobuf.so;-lpthread;-lpthread (found version "3.5.1") 
+-- Found Protobuf: /usr/local/lib/libprotobuf.so;-lpthread;-lpthread;-lpthread (found version "3.5.1") 
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/meirtz/CLionProjects/Contacts/cmake-build-debug

@@ -6,6 +6,32 @@
 
 #IncludeRegexTransform: 
 
+.././proto/ContactBook.pb.h
+string
+-
+google/protobuf/stubs/common.h
+-
+google/protobuf/io/coded_stream.h
+-
+google/protobuf/arena.h
+-
+google/protobuf/arenastring.h
+-
+google/protobuf/generated_message_table_driven.h
+-
+google/protobuf/generated_message_util.h
+-
+google/protobuf/metadata.h
+-
+google/protobuf/message.h
+-
+google/protobuf/repeated_field.h
+-
+google/protobuf/extension_set.h
+-
+google/protobuf/unknown_field_set.h
+-
+
 /home/meirtz/CLionProjects/Contacts/ContactBook.cpp
 ContactBook.h
 /home/meirtz/CLionProjects/Contacts/ContactBook.h
@@ -15,10 +41,18 @@ Contacts.h
 /home/meirtz/CLionProjects/Contacts/Contacts.h
 iostream
 -
+cstdio
+-
+cstdlib
+-
 vector
 -
 unordered_map
 -
+sqlite3.h
+-
+ContactBook.pb.h
+/home/meirtz/CLionProjects/Contacts/ContactBook.pb.h
 
 /home/meirtz/CLionProjects/Contacts/ContactException.cpp
 ContactException.h
@@ -44,6 +78,18 @@ ContactException.h
 cstring
 -
 
+/home/meirtz/CLionProjects/Contacts/Interface.cpp
+Interface.h
+/home/meirtz/CLionProjects/Contacts/Interface.h
+
+/home/meirtz/CLionProjects/Contacts/Interface.h
+iostream
+-
+ContactBook.h
+/home/meirtz/CLionProjects/Contacts/ContactBook.h
+ContactBook.pb.h
+/home/meirtz/CLionProjects/Contacts/ContactBook.pb.h
+
 /home/meirtz/CLionProjects/Contacts/main.cpp
 iostream
 -
@@ -51,4 +97,6 @@ Contacts.h
 /home/meirtz/CLionProjects/Contacts/Contacts.h
 ContactBook.h
 /home/meirtz/CLionProjects/Contacts/ContactBook.h
+Interface.h
+/home/meirtz/CLionProjects/Contacts/Interface.h
 

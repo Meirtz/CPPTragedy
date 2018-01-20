@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/lib/x86_64-linux-gnu/libcurses.so -I/usr/lib/x86_64-linux-gnu/libform.so 
+CXX_INCLUDES = -I/home/meirtz/CLionProjects/Contacts/cmake-build-debug -I/home/meirtz/CLionProjects/Contacts/./proto 
 

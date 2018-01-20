@@ -1,0 +1,18 @@
+//Filename: ContactsBook.proto
+
+syntax="proto2";
+package ContactsBook;
+
+message Contacts {
+    optional int32 id = 1;
+    required string name = 2;
+    required string number = 3;
+    optional bool sex = 4;
+    optional string address = 5;
+    optional string date = 6;
+    optional string email = 7;
+}
+
+message ContactBook {
+    repeated Contacts people = 1;
+}

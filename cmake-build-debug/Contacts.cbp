@@ -5,7 +5,7 @@
 		<Option title="Contacts"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\proto\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/meirtz/CLionProjects/Contacts/cmake-build-debug"/>
@@ -44,8 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/x86_64-linux-gnu/libcurses.so"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/libform.so"/>
+					<Add directory="/home/meirtz/CLionProjects/Contacts/cmake-build-debug"/>
+					<Add directory="/home/meirtz/CLionProjects/Contacts/./proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -69,8 +69,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/x86_64-linux-gnu/libcurses.so"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/libform.so"/>
+					<Add directory="/home/meirtz/CLionProjects/Contacts/cmake-build-debug"/>
+					<Add directory="/home/meirtz/CLionProjects/Contacts/./proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -85,6 +85,52 @@
 					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foo">
+				<Option output="/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/libfoo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/Makefile&quot;  VERBOSE=1 foo"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="foo/fast">
+				<Option output="/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/libfoo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/Makefile&quot;  VERBOSE=1 foo/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -112,11 +158,23 @@
 		<Unit filename="/home/meirtz/CLionProjects/Contacts/Interface.h">
 			<Option target="Contacts"/>
 		</Unit>
+		<Unit filename="/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.cc">
+			<Option target="foo"/>
+		</Unit>
+		<Unit filename="/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.cc.rule">
+			<Option target="foo"/>
+		</Unit>
+		<Unit filename="/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/ContactBook.pb.h">
+			<Option target="foo"/>
+		</Unit>
 		<Unit filename="/home/meirtz/CLionProjects/Contacts/main.cpp">
 			<Option target="Contacts"/>
 		</Unit>
 		<Unit filename="/home/meirtz/CLionProjects/Contacts/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/meirtz/CLionProjects/Contacts/proto/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\proto\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

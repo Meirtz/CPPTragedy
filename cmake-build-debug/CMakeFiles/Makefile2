@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/meirtz/CLionProjects/Contacts/cmake-build-debug
 # Target rules for target CMakeFiles/Contacts.dir
 
 # All Build rule for target.
-CMakeFiles/Contacts.dir/all:
+CMakeFiles/Contacts.dir/all: proto/CMakeFiles/foo.dir/all
 	$(MAKE) -f CMakeFiles/Contacts.dir/build.make CMakeFiles/Contacts.dir/depend
 	$(MAKE) -f CMakeFiles/Contacts.dir/build.make CMakeFiles/Contacts.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Contacts"
@@ -76,7 +76,7 @@ all: CMakeFiles/Contacts.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Contacts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Contacts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Contacts.dir/rule
@@ -93,6 +93,61 @@ CMakeFiles/Contacts.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/Contacts.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory proto
+
+# Convenience name for "all" pass in the directory.
+proto/all: proto/CMakeFiles/foo.dir/all
+
+.PHONY : proto/all
+
+# Convenience name for "clean" pass in the directory.
+proto/clean: proto/CMakeFiles/foo.dir/clean
+
+.PHONY : proto/clean
+
+# Convenience name for "preinstall" pass in the directory.
+proto/preinstall:
+
+.PHONY : proto/preinstall
+
+#=============================================================================
+# Target rules for target proto/CMakeFiles/foo.dir
+
+# All Build rule for target.
+proto/CMakeFiles/foo.dir/all:
+	$(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/depend
+	$(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles --progress-num=7,8,9 "Built target foo"
+.PHONY : proto/CMakeFiles/foo.dir/all
+
+# Include target in all.
+all: proto/CMakeFiles/foo.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+proto/CMakeFiles/foo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 proto/CMakeFiles/foo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/meirtz/CLionProjects/Contacts/cmake-build-debug/CMakeFiles 0
+.PHONY : proto/CMakeFiles/foo.dir/rule
+
+# Convenience name for target.
+foo: proto/CMakeFiles/foo.dir/rule
+
+.PHONY : foo
+
+# clean rule for target.
+proto/CMakeFiles/foo.dir/clean:
+	$(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/clean
+.PHONY : proto/CMakeFiles/foo.dir/clean
+
+# clean rule for target.
+clean: proto/CMakeFiles/foo.dir/clean
 
 .PHONY : clean
 

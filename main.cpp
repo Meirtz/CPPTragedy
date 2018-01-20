@@ -1,8 +1,10 @@
 #include <iostream>
 #include "Contacts.h"
 #include "ContactBook.h"
+#include "Interface.h"
 
-extern const bool _DEBUG = true;
+extern const bool _DEBUG = false;
+extern const char *_CLEAR_STR  = "clear";
 
 using namespace std;
 
@@ -23,11 +25,28 @@ void contact_book_test() {
     test_book_instace.dispaly();
 }
 
+void interface_test() {
+    ContactBook book;
+
+    Contacts person1("Meirtz", "18512377787", true, "Yayuan A, Chongqing Jiaotong Unversity, China");
+    Contacts person2("T.Zhang", "12345678901", true, "Yayuan B, Chongqing Jiaotong Unversity, China");
+    book.addPerson(person1);
+    book.addPerson(person2);
+
+    Interface ui(book);
+
+    ui.display_main();
+}
+
 int Contacts::total_num = 0;
 
 
 int main() {
-    contacts_test();
-    contact_book_test();
+    //contacts_test();
+    //contact_book_test();
+    //interface_test();
+    ContactBook book = ContactBook();
+    Interface ui(book);
+    ui.display_main();
     return 0;
 }

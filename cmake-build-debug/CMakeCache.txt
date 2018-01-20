@@ -200,6 +200,9 @@ CURSES_INCLUDE_PATH:PATH=/usr/include
 //Path to a library.
 CURSES_NCURSES_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libncurses.so
 
+//Dependencies for target
+ContactBook.pb.cpp_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 Contacts_BINARY_DIR:STATIC=/home/meirtz/CLionProjects/Contacts/cmake-build-debug
 
@@ -211,6 +214,51 @@ ProcessorCount_cmd_getconf:FILEPATH=/usr/bin/getconf
 
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
+
+//The directory containing a CMake configuration file for ProtoBuf.
+ProtoBuf_DIR:PATH=ProtoBuf_DIR-NOTFOUND
+
+//Path to a file.
+Protobuf_INCLUDE_DIR:PATH=/usr/local/include
+
+//Path to a library.
+Protobuf_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libprotobuf.so
+
+//Path to a library.
+Protobuf_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libprotobuf.so
+
+//Path to a library.
+Protobuf_LITE_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libprotobuf-lite.so
+
+//Path to a library.
+Protobuf_LITE_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libprotobuf-lite.so
+
+//The Google Protocol Buffers Compiler
+Protobuf_PROTOC_EXECUTABLE:FILEPATH=/usr/local/bin/protoc
+
+//Path to a library.
+Protobuf_PROTOC_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libprotoc.so
+
+//Path to a library.
+Protobuf_PROTOC_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libprotoc.so
+
+//The directory containing a CMake configuration file for RapidJSON.
+RapidJSON_DIR:PATH=RapidJSON_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for SQLiteCpp.
+SQLiteCpp_DIR:PATH=/usr/local/lib/cmake/SQLiteCpp
+
+//Dependencies for target
+f_LIB_DEPENDS:STATIC=
+
+//Dependencies for the target
+foo_LIB_DEPENDS:STATIC=general;/usr/local/lib/libprotobuf.so;general;-lpthread;general;-lpthread;general;-lpthread;general;pthread;
+
+//The directory containing a CMake configuration file for protobuf.
+protobuf_DIR:PATH=protobuf_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for sqlite3.
+sqlite3_DIR:PATH=sqlite3_DIR-NOTFOUND
 
 
 ########################
@@ -297,6 +345,14 @@ CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Have symbol pthread_create
+CMAKE_HAVE_LIBC_CREATE:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
+//Have include pthread.h
+CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/meirtz/CLionProjects/Contacts
@@ -319,7 +375,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -368,8 +424,28 @@ CURSES_INCLUDE_PATH-ADVANCED:INTERNAL=1
 CURSES_NCURSES_LIBRARY-ADVANCED:INTERNAL=1
 //Details about finding Curses
 FIND_PACKAGE_MESSAGE_DETAILS_Curses:INTERNAL=[/usr/lib/x86_64-linux-gnu/libcurses.so][/usr/include][v()]
+//Details about finding Protobuf
+FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/local/lib/libprotobuf.so;-lpthread;-lpthread;-lpthread][/usr/local/include][v3.5.1()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: ProcessorCount_cmd_getconf
 ProcessorCount_cmd_getconf-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_INCLUDE_DIR
+Protobuf_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_LIBRARY_DEBUG
+Protobuf_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_LIBRARY_RELEASE
+Protobuf_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_LITE_LIBRARY_DEBUG
+Protobuf_LITE_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_LITE_LIBRARY_RELEASE
+Protobuf_LITE_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_PROTOC_EXECUTABLE
+Protobuf_PROTOC_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_DEBUG
+Protobuf_PROTOC_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Protobuf_PROTOC_LIBRARY_RELEASE
+Protobuf_PROTOC_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 

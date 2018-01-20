@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+06a216f3160c2c4b312fe4a79d8f25a6 proto/ContactBook.pb.cc

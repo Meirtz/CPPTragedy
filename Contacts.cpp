@@ -84,3 +84,5 @@ Contacts::Contacts(const Contacts &con) {
     total_num++;
 }
 
+Contacts::Contacts() {}
+

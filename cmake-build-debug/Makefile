@@ -123,6 +123,19 @@ Contacts/fast:
 	$(MAKE) -f CMakeFiles/Contacts.dir/build.make CMakeFiles/Contacts.dir/build
 .PHONY : Contacts/fast
 
+#=============================================================================
+# Target rules for targets named foo
+
+# Build rule for target.
+foo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 foo
+.PHONY : foo
+
+# fast build rule for target.
+foo/fast:
+	$(MAKE) -f proto/CMakeFiles/foo.dir/build.make proto/CMakeFiles/foo.dir/build
+.PHONY : foo/fast
+
 ContactBook.o: ContactBook.cpp.o
 
 .PHONY : ContactBook.o
@@ -267,6 +280,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Contacts"
+	@echo "... foo"
 	@echo "... ContactBook.o"
 	@echo "... ContactBook.i"
 	@echo "... ContactBook.s"

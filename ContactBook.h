@@ -7,8 +7,13 @@
 
 #include "Contacts.h"
 #include <iostream>
+#include <cstdio>
+#include <cstdlib>
 #include <vector>
 #include <unordered_map>
+#include <sqlite3.h>
+#include "ContactBook.pb.h"
+
 
 
 using namespace std;

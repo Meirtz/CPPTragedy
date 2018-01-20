@@ -14,12 +14,13 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/lib/x86_64-linux-gnu/libcurses.so"
-  "/usr/lib/x86_64-linux-gnu/libform.so"
+  "."
+  ".././proto"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/meirtz/CLionProjects/Contacts/cmake-build-debug/proto/CMakeFiles/foo.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

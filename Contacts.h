@@ -27,6 +27,7 @@ public:
     //multiple date, such as birthday
     string email;
 
+    Contacts();
     Contacts(const char *name, const char *number, bool sex = true, const char *address = "", const char *date = "", const char *email = "");
     Contacts(const Contacts & con);
     ~Contacts();

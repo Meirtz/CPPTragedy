@@ -16,24 +16,29 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/CMakeLanguageInformation.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/CMakeSystemSpecificInformation.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/CheckIncludeFile.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/CheckLibraryExists.cmake"
+  "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/CheckSymbolExists.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Compiler/GNU-C.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Compiler/GNU-CXX.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Compiler/GNU.cmake"
-  "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/FindCurses.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/FindPackageHandleStandardArgs.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/FindPackageMessage.cmake"
+  "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/FindProtobuf.cmake"
+  "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/FindThreads.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Platform/Linux-GNU-C.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Platform/Linux-GNU-CXX.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Platform/Linux-GNU.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Platform/Linux.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/Platform/UnixPaths.cmake"
   "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/ProcessorCount.cmake"
+  "/home/meirtz/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.4301.33/bin/cmake/share/cmake-3.9/Modules/SelectLibraryConfigurations.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.9.6/CMakeCCompiler.cmake"
   "CMakeFiles/3.9.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.9.6/CMakeSystem.cmake"
+  "../proto/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -45,9 +50,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "proto/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Contacts.dir/DependInfo.cmake"
+  "proto/CMakeFiles/foo.dir/DependInfo.cmake"
   )
