@@ -49,8 +49,6 @@ vector
 -
 unordered_map
 -
-sqlite3.h
--
 ContactBook.pb.h
 /Users/meirtz/Documents/GitHub/CPPTragedy/ContactBook.pb.h
 

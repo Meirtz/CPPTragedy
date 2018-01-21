@@ -50,6 +50,10 @@ void ContactBook::dispaly() {
         cout<<endl;
         i++;
     }
+
+    if(i == 1) {
+        printf("No contact found!\n");
+    }
 }
 
 ContactBook::ContactBook() {

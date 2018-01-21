@@ -107,13 +107,16 @@ Contacts &Interface::new_person() {
     //std::getline(std::cin, address);
 
 
-    printf("Date:");
+    printf("Birthday:");
     cin>>date;
     struct tm tm;
     while(!strptime(date.c_str(), "%Y-%m-%d", &tm)) {
         printf("Invalid date. Please input again:");
         cin>>date;
     }
+
+    if(_DEBUG) printf("I've got the date string: %s\n", date.c_str());
+
 
     printf("E-mail:");
     cin>>email;

@@ -19,6 +19,7 @@ Contacts::Contacts(const char *name, const char *number, bool sex, const char *a
         cout<<"Invalid numbers."<<endl;
     }
 
+    if(_DEBUG) cout<<"I've got date string:"<<date<<" and in object is:"<<this->date<<endl;
     this->sex = sex;
     time_t t;
     time(&t);
@@ -58,12 +59,15 @@ extern bool isNumber(const char * str) {
 }
 
 void Contacts::display_contacts_instance(Contacts &ins) {
-    printf("%-16s|%-45s|\n", "Name:", ins.name.c_str());
-    printf("%-16s|%-45s|\n", "Number:", ins.number.c_str());
-    printf("%-16s|%-45s|\n", "Sex:", (ins.sex?"Male":"Female"));
-    printf("%-16s|%-45s|\n", "Address:", ins.address.c_str());
-    printf("%-16s|%-45s|\n", "Email:", ins.email.c_str());
+    printf(" -------------------------------------------------------------- \n");
+    printf("|%-16s|%-45s|\n", "Name:", ins.name.c_str());
+    printf("|%-16s|%-45s|\n", "Number:", ins.number.c_str());
+    printf("|%-16s|%-45s|\n", "Sex:", (ins.sex?"Male":"Female"));
+    printf("|%-16s|%-45s|\n", "Address:", ins.address.c_str());
+    printf("|%-16s|%-45s|\n", "Birthday:", ins.date.c_str());
+    printf("|%-16s|%-45s|\n", "Email:", ins.email.c_str());
     //printf("%-16s|%-45s|\n",);
+    printf(" -------------------------------------------------------------- \n");
 
     if(_DEBUG) printf("%-16s|%-45d|\n", "TOTAL_NUM", Contacts::get_total_num());
 
@@ -80,6 +84,7 @@ Contacts::Contacts(const Contacts &con) {
     this->number = con.number;
     this->sex = con.sex;
     this->address = con.address;
+    this->date = con.date;
     this->email = con.email;
     total_num++;
 }
